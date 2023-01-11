@@ -1,5 +1,6 @@
 body {
     background: rgb(171, 192,217);
+    margin: 0;
 }
 
 ul {
@@ -54,4 +55,10 @@ li a:hover, .dropdown:hover, .dropbtn:hover {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.column {
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
 }
