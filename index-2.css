@@ -9,7 +9,18 @@
 .bg-grey {
     background-color: #f6f6f6;
   }
+.btn-default {
+    background: #000;
+    color: #fff;
+}
 footer {
     background-color: #f2f2f2;
     /*padding: 15px;*/
 }
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
