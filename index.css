@@ -1,0 +1,20 @@
+.container-fluid {
+    padding: 40px 50px;
+}
+.navbar {
+    margin-bottom: 0;
+}
+
+#portfolioSection {
+    background-color: #144272;
+    color: #fff;
+}
+
+#newsAndEvents {
+    background-color: #205295;
+}
+
+.contact-section {
+    background-color: #2C74B3;
+    color: #fff;
+}
