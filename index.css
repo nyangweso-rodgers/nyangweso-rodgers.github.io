@@ -1,8 +1,9 @@
-.container-fluid {
+.navbar {
     padding: 40px 50px;
 }
-.navbar {
-    margin-bottom: 0;
+
+.about-section {
+    padding: 150px 50px;
 }
 
 #portfolioSection {
