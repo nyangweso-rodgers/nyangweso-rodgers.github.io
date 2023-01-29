@@ -1,21 +1,73 @@
+/* Styling the Body */
+body {
+    font: 400 15px Lato, sans-serif;
+    color: #818181;
+    line-height: 1.8;
+}
+/* Styling Navbar Section*/
 .navbar {
-    padding: 40px 50px;
+    margin-bottom: 0;
+    font-size: 19px;
+    letter-spacing: 2px;
+    line-height: 1.42857143 !important;
+    z-index: 9999;
+    font-family: Montserrat, sans-serif;
+    /*
+    background-color: #081b24;
+    color: #fff;
+    */
 }
 
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+/* Extra Styles to Some Elements */
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+  /* Styling About Section */
 .about-section {
-    padding: 150px 50px;
+    padding: 80px 50px;
 }
 
-#portfolioSection {
-    background-color: #144272;
+/* Styling Portfolio Section */
+.portfolio-section {
+    background-color: #73a9c4;
     color: #fff;
+    padding: 80px 50px;
 }
 
-#newsAndEvents {
-    background-color: #205295;
+/* Styling Tech News and events section */
+.news-and-event-section {
+    background-color: #a5aba8;
+    padding: 80px 50px;
 }
 
+/* Styling Contact Section */
 .contact-section {
-    background-color: #2C74B3;
-    color: #fff;
+    padding: 80px 50px;
 }

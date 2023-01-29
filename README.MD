@@ -9,3 +9,6 @@
 2. #144272
 3. #205295
 4. #2C74B3
+
+# Color Palette Website
+- [ColorKit](https://colorkit.co/profile/Rodgers)

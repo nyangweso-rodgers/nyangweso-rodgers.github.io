@@ -1,0 +1,28 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #081b24;
+    border: 0;
+    font-size: 19px;
+    border-radius: 0;
+    letter-spacing: 2px;
+    line-height: 1.42857143 !important;
+    z-index: 9999;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
