@@ -4,6 +4,7 @@ body {
     color: #818181;
     line-height: 1.8;
 }
+
 /* Styling Navbar Section*/
 .navbar {
     margin-bottom: 0;
@@ -12,10 +13,6 @@ body {
     line-height: 1.42857143 !important;
     z-index: 9999;
     font-family: Montserrat, sans-serif;
-    /*
-    background-color: #081b24;
-    color: #fff;
-    */
 }
 
 .navbar li a, .navbar .navbar-brand {
@@ -31,14 +28,13 @@ body {
     border-color: transparent;
     color: #fff !important;
   }
-/* Extra Styles to Some Elements */
 
+/* Extra Styles to Some Elements */
 h2 {
     font-size: 24px;
     text-transform: uppercase;
     color: #303030;
     font-weight: 500;
-    margin-bottom: 30px;
 }
 
 h4 {
@@ -46,7 +42,6 @@ h4 {
     line-height: 1.375em;
     color: #303030;
     font-weight: 400;
-    margin-bottom: 30px;
 }
 
   /* Styling About Section */
@@ -56,15 +51,17 @@ h4 {
 
 /* Styling Portfolio Section */
 .portfolio-section {
-    background-color: #73a9c4;
-    color: #fff;
+    background-color: #f0ead2;
     padding: 80px 50px;
 }
 
 /* Styling Tech News and events section */
 .news-and-event-section {
-    background-color: #a5aba8;
+    background-color: #ffffea;
     padding: 80px 50px;
 }
 
 /* Styling Contact Section */
+.contact-section {
+  padding: 10px 10px;
+}
