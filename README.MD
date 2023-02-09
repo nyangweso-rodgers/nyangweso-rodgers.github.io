@@ -35,3 +35,9 @@
 
 # Color Palette Website
 - [ColorKit](https://colorkit.co/profile/Rodgers)
+
+# Font Awesome Icons
+- [Icons Maps](https://www.w3schools.com/icons/fontawesome5_icons_maps.asp)
+- [Icons Chat](https://www.w3schools.com/icons/fontawesome5_icons_chat.asp)
+- [Icons Business](https://www.w3schools.com/icons/fontawesome5_icons_business.asp)
+- [Icons Computers](https://www.w3schools.com/icons/fontawesome5_icons_computers.asp)
