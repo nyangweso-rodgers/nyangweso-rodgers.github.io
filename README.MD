@@ -4,6 +4,70 @@
 - [Further Reading]()
     - [GitHub Pages - Website for you and Your Projects](https://pages.github.com/)
 
+# Feature Branch Workflow
+# Start with the main Branch
+```sh
+    git checkout main
+    git fetch origin
+    git reset --hard origin/main
+```
+
+# Create a New Branch
+* Crete 3 seperate branches to highlight 3 approaches for designing the website
+    ```sh
+        # 3 branches
+        git checkout -b dev-with-bs5
+        git checkout -b dev-with-tailwind-css
+        git checkout -b dev-vanilla-css
+    ```
+# Update, add, commit, and Push changes
+```sh
+    git status
+    git add <file_name>
+    git commit
+```
+
+# Push the Branches to Remote
+* Assuming that "__origin__" is the name of the remote repo you want to push your changes to:
+    ```sh
+        git push origin dev-with-bs5
+        git push origin dev-with-tailwind-css
+        git push origin dev-vanilla-css
+    ```
+
+# Merge a branch to main
+```sh
+    git checkout main
+    git pull
+    git pull origin dev-with-bs5
+    git pull origin dev-with-tailwind-css
+    git pull origin dev-vanilla-css
+```
+
+# Delete a Branch
+* Switch to another branch: Before deleting the branch, make sure you're on a different branch. You cannot delete a branch that you are currently on.
+    ```sh
+        # checkout from the dev branches
+        git checkout dev-with-bs5
+        git checkout dev-with-tailwind-css
+        git checkout dev-vanilla-css
+    ```
+* Delete the local branch:
+  ```sh
+    git branch -d dev-with-bs5
+    git branch -d dev-with-tailwind-css
+    git branch -d dev-vanilla-css
+  ```
+* Delete the Remote Branch
+  ```sh
+    git push origin --delete dev-with-bs5
+    git push origin --delete dev-with-tailwind-css
+    git push origin --delete dev-vanilla-css
+  ```
+* Verify the branch has been deleted both locally and remotely
+  ```sh
+    git branch -a # a command lists all branches both locally and remotely
+  ```
 # Frameworks Used
 1. Boostrap 5
 
