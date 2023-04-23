@@ -2,6 +2,7 @@
 
 ## Table Of Contents
 - [Frameworks Used](#Frameworks-Used)
+- [nyangweso-rodgers - Setting Up GitHub Pages](https://github.com/nyangweso-rodgers/Computer_Science_Concepts/tree/master/Version-Control/GitHub/GitHub-Pages)
 
 # Frameworks Used
 1. Boostrap 5
