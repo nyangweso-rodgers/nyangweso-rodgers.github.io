@@ -1,8 +1,7 @@
 # nyangweso-rodgers.github.io
 
 ## Table Of Contents
-- [Further Reading]()
-    - [GitHub Pages - Website for you and Your Projects](https://pages.github.com/)
+- [Frameworks Used](#Frameworks-Used)
 
 # Frameworks Used
 1. Boostrap 5
@@ -27,14 +26,15 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     ```
-# Color Palette
+
+# Color Palette Websites
+- [ColorKit](https://colorkit.co/profile/Rodgers)
+
+# Color Palettes
 1. #0A2647
 2. #144272
 3. #205295
 4. #2C74B3
-
-# Color Palette Website
-- [ColorKit](https://colorkit.co/profile/Rodgers)
 
 # Font Awesome Icons
 - [Icons Maps](https://www.w3schools.com/icons/fontawesome5_icons_maps.asp)
