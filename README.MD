@@ -4,6 +4,12 @@
 - [Frameworks Used](#Frameworks-Used)
 - [nyangweso-rodgers - Setting Up GitHub Pages](https://github.com/nyangweso-rodgers/Computer_Science_Concepts/tree/master/Version-Control/GitHub/GitHub-Pages)
 
+# Website Sections for Creating Branches
+1. Navbar Section 
+2. About Me Section
+3. Portfolio Section
+4. News and Blog Section
+5. Contact Section
 # Frameworks Used
 1. Boostrap 5
 
