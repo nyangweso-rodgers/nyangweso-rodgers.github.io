@@ -58,10 +58,39 @@ h4 {
 /* Styling Tech News and events section */
 .news-and-event-section {
     background-color: #ffffea;
-    padding: 80px 50px;
+}
+/* Contact Section */
+.contact-section {
+  background-color: #FEF2F4;
+}
+/* Style Contact Me Icons */
+.fas  {
+  font-size: 18px;
 }
 
-/* Styling Contact Section */
-.contact-section {
-  padding: 10px 10px;
+/* Style Social Media Icons */
+.fab {
+  padding: 12px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 5px 3px;
+}
+.fa-linkedin-in {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #333333;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fab:hover {
+  opacity: 0.7;
 }
