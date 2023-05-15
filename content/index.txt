@@ -8,21 +8,6 @@
 * Performance: VSCode may not be as performant as some other Java IDEs, especially when working on larger projects. This can lead to slower build times and longer development cycles.
 * Integration with build tools: While VSCode can integrate with build tools such as Maven and Gradle, it may not provide the same level of integration and automation as other IDEs.
 
-# When should I use MongoDB instead of MySQL?
-* MySQL and MongoDB are two rather specific types of databases. Generally you first pick the storage method you want. The storage methods divide themselves into two groups: relational and NoSQL. And the NoSQL storage methodes can be divided in about four groups (there’s a lot of division methods): column store, key-value store, graph store, document store. MongoDB is a document store database system.
-* But just to compare the two: a relational database is excellent for storing facts that all have intrinsic connections between them, that are the same every time. Let’s say you have a school, and there’s classes that have students, and students attend courses, and courses have teachers, who teach students, give out grades, et cetera. Every noun in that sentence could be made into a table, with fixed, intrinsic relations with the other tables. A student never teaches classes, a teacher never receives grades, and so on. You could still make a relational database that allows students to teach classes, using association tables, but if that keeps happening you’ll probably want to have a different kind of database altogether.
-* NoSQL databases in general are for when the data you are storing does not have (that many) fixed and intrinsic inner relations. Say, you want to store your error logs. A log has a code, a message, a level, and so on. But those are all attributes of your log, not separate entities with many-to-many relations with other entities.
-* Now, one of the other store methods I mentioned is key-value store. That means getting rid of all connections between data. You’ve got just a single row with a key and your value(s) (using JSON you can store as many values in a single field as you want). Document store can be called a variant of that, except it accommodates more complex values more easily.
-
-# What does YAML do better than JSON
-* JSON encodes six data types: Objects (mappings), Arrays, Strings Numbers, Booleans and Null. It is extremely easy for a machine to parse and provides very little flexibility. The specification is about a page and a half.
-* The main benefit of YAML over JSON is that it’s easier for humans to read and edit, which makes it a natural choice for configuration files.
-
-# 8 Common Problems You’ll Face In Your First Job As A Developer (& How To Solve Them)
-* https://www.codecademy.com/resources/blog/software-developer-common-problems/?utm_source=twitter&utm_medium=organic-social&utm_content=tw_03_06_23_common_first_job_problems
-
-# What Makes You a Unicorn in Data Analytics?
-* https://venture.circuit.ooo/what-makes-you-a-unicorn-in-data-analytics-a5e359aa1601
 
 # The One Page Data and Analytics Templates
 * https://towardsdatascience.com/the-one-page-data-and-analytics-templates-f53b949be84

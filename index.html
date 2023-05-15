@@ -85,95 +85,182 @@
             </div>
         </div>
         <!-- End - About Section -->
-
-        <!-- Portfolio Section -->
-        <div class="container-fluid text-center portfolio-section" id="portfolioSection">
-            <h3>PORTFOLIO</h3>
-            <h4>What I have created</h4>
-            <br>
-            <div class="row">
+        
+        <!-- Start -Portfolio & Blog Section-->
+        <div class="portfolio-and-blog-section container-fluid text-center">
+            <!-- Portfolio -->
+            <div class="row mb-4">
+            <h2>PORTFOLIO</h2>
+            <h3 class="mb-3">What I have Created</h3>
+            
+                <!-- First Card -->
                 <div class="col-sm-4">
-                    <p>Description of Project 1</p>
-                    <img src="images/slide-1.png" class="img-responsive" width="304" height="236" alt="">
+                    <div class="card h-100">
+                        <div class="card-header">Data Analytics</div>
+                        <div class="card-body">
+                            <h3 class="card-title">Customer Analytics</h3>
+                            <a class="btn btn-primary" href="https://github.com/nyangweso-rodgers/Data_Analytics/tree/main/Analytics-with-Python" target="_blank">Learn More</a>
+                        </div>
+                        <div class="card-footer">Last Updated 1 week ago</div>
+                    </div>
                 </div>
+                <!-- End First Card -->
+                <!-- Second Card -->
                 <div class="col-sm-4">
-                    <p>Description Of Project 2</p>
-                    <img src="images/slide-2.png" class="img-responsive" width="304" height="236" alt="">
+                    <div class="card h-100">
+                        <div class="card-header">Front End Web Applications</div>
+                        <div class="card-body">
+                            <h3 class="card-title">Web Applications using HTML, Bootstrap 5 & JavaScript</h3>
+                            <a class="btn btn-primary" href="" target="_blank">Learn More</a>
+                        </div>
+                        <div class="card-footer">Last Updated 1 week ago</div>
+                    </div>
                 </div>
+                <!-- End Second Card -->
+                <!--Third Card  -->
                 <div class="col-sm-4">
-                    <p>Description of Project 3</p>
-                    <img src="images/slide-3.png" class="img-responsive" width="304" height="236" alt="">
+                    <div class="card h-100">
+                        <div class="card-header">Data Engineering</div>
+                        <div class="card-body">
+                            <h3 class="card-title">Data Pipelines Projects</h3>
+                            <a class="btn btn-primary" href="" target="_blank">Learn More</a>
+                        </div>
+                        <div class="card-footer">Last Updated 1 week ago</div>
+                    </div>
                 </div>
             </div>
-         </div>
-         <!-- End - Portfolio Section -->
 
-
-        <!-- News & Blog Section -->
-        <div class="container-fluid text-center news-and-event-section" id="newsAndEventSection">
-            <h2 class="">Tech News and Events</h2>
-            <!-- Carousel -->
-            <div id="techNewsAndEvents" class="carousel slide text-center p-5" data-bs-ride="carousel">
-                <!-- Indicators/Dots-->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#techNewsAndEvents" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#techNewsAndEvents" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#techNewsAndEvents" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#techNewsAndEvents" data-bs-slide-to="3"></button>
+            <!-- Tech Blog -->
+            <div class="container">
+                <div class="row mb-2">
+                    <h2>TECH BLOG</h2>
+                    <h3 class="h3">Trending Topics & Tips in Tech</h3>
                 </div>
-                <!-- Wrapper for Slides -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <h4>Is Big Data Dead?</h4>
-                        <p>Yes, according to <a href="https://motherduck.com/authors/jordan-tigani/" target="_blank">JORDAN TIGANI</a></p>
-                        <p>The most surprising thing is that that most of the people using “Big Query” don’t really have Big Data. Even the ones who do tend to use workloads that only use a small fraction of their dataset sizes.</p>
-                        <p>A huge percentage of the data that gets processed is less than 24 hours old.</p>
-                        <p><a class="btn btn-success" href="https://motherduck.com/blog/big-data-is-dead/" target="_blank">Learn More</a></p>
+                <div class="row mb-4">
+                <!--Carousel -->
+                <!-- Carousel Wrapper -->
+                <div id="techBlog" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <!-- Indicators -->
+                    <div class="carousel-indicators-wrapper">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#techBlog" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#techBlog" data-bs-slide-to="1" ></button>
+                        <button type="button" data-bs-target="#techBlog" data-bs-slide-to="2"></button>
+                        </div>
+                        
                     </div>
-                    <div class="carousel-item">
-                        <h3>The self-fulfilling prophecy of ReactJS</h3>
-                        <p>"React isn’t great at anything except being popular."</p>
-                        <p>React has aged. And I don’t think most people—particularly those using it regularly—realize how much or how poorly.</p>
-                        <p>React’s satisfaction and interest have been declining steadily for years, while its usage has flatlined.</p>
-                        <p><i>By: Josh Collinsworth</i></p>
-                        <p><a class="btn btn-success" href="https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react" target="_blank">Learn More</a></p>
-                    </div>
-                    <div class="carousel-item">
-                        <h3>Microsoft launches Teams Premium with features powered by OpenAI</h3>
-                        <p>The new premium tier of Microsoft Teams includes an intelligent recap feature that automatically generates notes, tasks, and highlights of meetings</p>
-                        <p>If a colleague mentions you in a meeting, you’ll even get personalized timeline markers to quickly see what was shared and discussed</p>
-                        <p><a class="btn btn-success" href="https://www.theverge.com/2023/2/2/23582610/microsoft-teams-premium-openai-gpt-features" target="_blank">Learn More</a></p>
-                    </div>
-                    <div class="carousel-item">
-                        <h4>Applications for Australia Awards Scholarships for studying in Australia in 2024 are now open!</h4>
-                        <p>Application Closes: <b><i>1st May 2023</i></b></p>
-                        <a class="btn btn-success" href="https://www.studyaustralia.gov.au/news/australia-awards-scholarships-2024-intake?utm_source=twitter&utm_medium=social&utm_campaign=globalorganic&utm_content=blog_australia_awards_scholarships" target="_blank">Learn More and Apply </a>
-                    </div>
-                    <div class="carousel-item">
-                        <h4>Top Five Backend Services For Your Next Software Development Project</h4>
-                        <p>1. <a href="https://www.cyclic.sh/" target="_blank">Cyclic</a></p>
-                        <p>2. <a href="https://render.com/" target="_blank">Render</a></p>
-                        <p>3. <a href="https://railway.app/" target="_blank">Railway</a></p>
-                        <p>4. <a href="https://nhost.io/" target="_blank">Nhost</a></p>
-                        <p>5. <a href="https://fly.io/" target="_blank">Fly.io</a></p>
-                    </div>
-                    <div class="carousel-item">
-                        <h4>Webiner: Data Modeling w/ MongoDB</h4>
-                        <p>Date: February 22, 2023, 11 AM ET</p>
-                        <p>Examine the most important considerations when making decisions about your data model, so that you can create the model that best fits your application.</p>
-                        <a class="btn btn-success" href="https://www.mongodb.com/webinar/feb23-data-modeling-with-mongodb?utm_campaign=INT_EM_Intro_Data_Modeling_02_23_Email_1&utm_source=eloqua&utm_medium=email&utm_term=%C3%B0%C2%9F%C2%93%C2%85%20RSVP%3A%20Data%20Modeling%20Webinar%20%5BFebruary%2022nd%5D" target="_blank">Register</a>
+                    <!---
+                    <ol class="carousel-indicators">    
+                        <li data-bs-target="#techBlog" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#techBlog" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#techBlog" data-bs-slide-to="2"></li>
+                    </ol>
+                    -->
+                    <!-- Wrapper for Slides -->
+                    <div class="carousel-inner">
+                        <!-- Item 1-->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="card h-100">
+                                        <div class="card-header">Software Development</div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Top 5 Backend Services for Your Next Software Development Project</h5>
+                                            <ul>
+                                                <li class="list-group-item"><a href="https://www.cyclic.sh/" target="_blank">cyclic.sh</a></li>
+                                                <li class="list-group-item"><a href="https://render.com/" target="_blank">Render</a></li>
+                                                <li class="list-group-item"><a href="https://railway.app/" target="_blank">Railway</a></li>
+                                                <li class="list-group-item"><a href="https://nhost.io/" target="_blank">Nhost</a></li>
+                                                <li class="list-group-item"><a href="https://fly.io/" target="_blank">Fly.io</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="card-footer text-muted">Author: Rodgers Nyangweso</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card h-100">
+                                        <div class="card-header">Data Analytics</div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Is Big Data Dead?</h5>
+                                            <p>Yes, according to <a href="https://motherduck.com/authors/jordan-tigani/" target="_blank">JORDAN TIGANI</a></p>
+                                            <p>The most surprising thing is that that most of the people using “Big Query” don’t really have Big Data. Even the ones who do tend to use workloads that only use a small fraction of their dataset sizes.</p>
+                                            <p>A huge percentage of the data that gets processed is less than 24 hours old.</p>
+                                            <a class="btn btn-success" href="https://motherduck.com/blog/big-data-is-dead/" target="_blank">Learn More</a>
+                                        </div>
+                                        <div class="card-footer text-muted">Author: <a href="https://motherduck.com/authors/jordan-tigani/">Jordan Tigani</a></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card h-100">
+                                        <div class="card-header">Front End Web Applications</div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">The self-fulfilling prophecy of ReactJS</h5>
+                                            <p>"React isn’t great at anything except being popular."</p>
+                                            <p>React has aged. And I don’t think most people—particularly those using it regularly—realize how much or how poorly.</p>
+                                            <p>React’s satisfaction and interest have been declining steadily for years, while its usage has flattened.</p>
+                                            <a class="btn btn-success" href="https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react" target="_blank">Learn More</a>
+                                        </div>
+                                        <div class="card-footer text-muted">Author: Josh Collinsworth</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Item 2-->
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="card h-100">
+                                        <div class="card-header">Data Analytics</div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">What Makes You a Unicorn in Data Analytics?</h4>
+                                            <p>Ability to predict data issues</p>
+                                            <p>Ability to always delivery what is asked by your stakeholders</p>
+                                            <p>Always in sync with the stakeholders</p>
+                                            <p>There aren't weird data issues you can't solve</p>
+                                            <a class="btn btn-success" href="https://venture.circuit.ooo/what-makes-you-a-unicorn-in-data-analytics-a5e359aa1601" target="_blank">Learn More</a>
+                                        </div>
+                                        <div class="card-footer text-muted">Author: Mo Villagran</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card h-100">
+                                        <div class="card-header">Software Development</div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Case Study: From Microservice to Monolithic Architectures</h4>
+                                            <a class="btn btn-success" href="https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90" target="_blank">Learn More</a>
+                                        </div>
+                                        <div class="card-footer text-muted">Author: Prime Video</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card h-100">
+                                        <div class="card-header">Software Development</div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Common Problems as a First Time Developer</h4>
+                                            <a class="btn btn-success" href="https://www.codecademy.com/resources/blog/software-developer-common-problems/?utm_source=twitter&utm_medium=organic-social&utm_content=tw_03_06_23_common_first_job_problems" target="_blank">Learn More</a>
+                                        </div>
+                                        <div class="card-footer text-muted">Author: Jacob Johnson</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#techBlog" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#techBlog" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                     </div>
                 </div>
-                <!-- Left and Right Controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#techNewsAndEvents" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon bg-dark"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#techNewsAndEvents" data-bs-slide="next">
-                    <span class="carousel-control-next-icon bg-dark"></span>
-                </button>
+                <!-- Carousel Ends -->
+                </div>
             </div>
+
         </div>
-        <!-- End - News & Events Section -->
+        <!-- End - Portfolio & Blog Section -->
         
         <!-- Contact Section -->
         <div class="container-fluid contact-section" id="contactSection">

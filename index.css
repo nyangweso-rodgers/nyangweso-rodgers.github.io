@@ -48,20 +48,23 @@ h4 {
 .about-section {
     padding: 80px 50px;
 }
-
-/* Styling Portfolio Section */
-.portfolio-section {
-    background-color: #f0ead2;
-    padding: 80px 50px;
+/* ------------------------------------------------ */
+/* Styling Portfolio & Blog Section */
+.portfolio-and-blog-section {
+  background-color: #ACBCFF;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
-/* Styling Tech News and events section */
-.news-and-event-section {
-    background-color: #ffffea;
-}
+/* ------------------------------------------------ */
+/* Carousel Styles */
+
+
+
+/* ------------------------------------------------ */
 /* Contact Section */
 .contact-section {
-  background-color: #FEF2F4;
+  background-color: #AEE2FF;
 }
 /* Style Contact Me Icons */
 .fas  {
