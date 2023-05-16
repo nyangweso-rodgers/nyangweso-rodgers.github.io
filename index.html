@@ -94,7 +94,7 @@
             <h3 class="mb-3">What I have Created</h3>
             
                 <!-- First Card -->
-                <div class="col-sm-4">
+                <div class="col-sm-4 mb-2">
                     <div class="card h-100">
                         <div class="card-header">Data Analytics</div>
                         <div class="card-body">
@@ -106,7 +106,7 @@
                 </div>
                 <!-- End First Card -->
                 <!-- Second Card -->
-                <div class="col-sm-4">
+                <div class="col-sm-4 mb-2">
                     <div class="card h-100">
                         <div class="card-header">Front End Web Applications</div>
                         <div class="card-body">
@@ -118,7 +118,7 @@
                 </div>
                 <!-- End Second Card -->
                 <!--Third Card  -->
-                <div class="col-sm-4">
+                <div class="col-sm-4 mb-2">
                     <div class="card h-100">
                         <div class="card-header">Data Engineering</div>
                         <div class="card-body">
@@ -133,35 +133,30 @@
             <!-- Tech Blog -->
             <div class="container">
                 <div class="row mb-2">
-                    <h2>TECH BLOG</h2>
+                    <h2 class="h2">TECH BLOG</h2>
                     <h3 class="h3">Trending Topics & Tips in Tech</h3>
                 </div>
                 <div class="row mb-4">
                 <!--Carousel -->
                 <!-- Carousel Wrapper -->
                 <div id="techBlog" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <!-- Indicators -->
+
+                    <!-- Indicators - Start -->
                     <div class="carousel-indicators-wrapper">
                         <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#techBlog" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#techBlog" data-bs-slide-to="1" ></button>
-                        <button type="button" data-bs-target="#techBlog" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#techBlog" data-bs-slide-to="0" class="active btn-danger" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#techBlog" data-bs-slide-to="1" ></button>
+                            <button type="button" data-bs-target="#techBlog" data-bs-slide-to="2"></button>
                         </div>
-                        
                     </div>
-                    <!---
-                    <ol class="carousel-indicators">    
-                        <li data-bs-target="#techBlog" data-bs-slide-to="0" class="active"></li>
-                        <li data-bs-target="#techBlog" data-bs-slide-to="1"></li>
-                        <li data-bs-target="#techBlog" data-bs-slide-to="2"></li>
-                    </ol>
-                    -->
+                    <!-- Indicators - End-->
+
                     <!-- Wrapper for Slides -->
-                    <div class="carousel-inner">
+                    <div class="carousel-inner h-100">
                         <!-- Item 1-->
                         <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-sm-4">
+                            <div class="row row-cols-1 row-cols-md-3 g-4 h-100">
+                                <div id="" class="col">
                                     <div class="card h-100">
                                         <div class="card-header">Software Development</div>
                                         <div class="card-body">
@@ -177,7 +172,7 @@
                                         <div class="card-footer text-muted">Author: Rodgers Nyangweso</div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col">
                                     <div class="card h-100">
                                         <div class="card-header">Data Analytics</div>
                                         <div class="card-body">
@@ -190,7 +185,7 @@
                                         <div class="card-footer text-muted">Author: <a href="https://motherduck.com/authors/jordan-tigani/">Jordan Tigani</a></div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col">
                                     <div class="card h-100">
                                         <div class="card-header">Front End Web Applications</div>
                                         <div class="card-body">
@@ -205,10 +200,11 @@
                                 </div>
                             </div>
                         </div>
-                        <!--Item 2-->
+                        <!--End - Item 1 Carousel -->
+                        <!--Start - Item 2 carousel -->
                         <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-sm-4">
+                            <div class="row row-cols-1 row-cols-md-3 g-4 h-100">
+                                <div class="col">
                                     <div class="card h-100">
                                         <div class="card-header">Data Analytics</div>
                                         <div class="card-body">
@@ -222,7 +218,7 @@
                                         <div class="card-footer text-muted">Author: Mo Villagran</div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col">
                                     <div class="card h-100">
                                         <div class="card-header">Software Development</div>
                                         <div class="card-body">
@@ -232,7 +228,7 @@
                                         <div class="card-footer text-muted">Author: Prime Video</div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col">
                                     <div class="card h-100">
                                         <div class="card-header">Software Development</div>
                                         <div class="card-body">
@@ -244,6 +240,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!--End - Item 2 Carousel -->
                         <!-- Carousel Controls -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#techBlog" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
