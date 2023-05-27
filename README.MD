@@ -48,3 +48,6 @@
 - [Icons Chat](https://www.w3schools.com/icons/fontawesome5_icons_chat.asp)
 - [Icons Business](https://www.w3schools.com/icons/fontawesome5_icons_business.asp)
 - [Icons Computers](https://www.w3schools.com/icons/fontawesome5_icons_computers.asp)
+
+# Reference Templates
+1. [https://github.com/nyangweso-rodgers/ - contact us templates](https://github.com/nyangweso-rodgers/)
