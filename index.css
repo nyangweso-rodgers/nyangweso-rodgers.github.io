@@ -1,7 +1,8 @@
 /* Styling the Body */
 body {
-    font: 400 15px Lato, sans-serif;
-    color: #818181;
+    /*font: 400 15px Trirong,Lato, sans-serif;*/
+    font-family: "Trirong", serif;
+    /*color: #818181;*/
     line-height: 1.8;
 }
 
@@ -31,17 +32,17 @@ body {
 
 /* Extra Styles to Some Elements */
 h2 {
-    font-size: 24px;
+    /*font-size: 24px;*/
     text-transform: uppercase;
-    color: #303030;
-    font-weight: 500;
+    /*color: #303030;*/
+    /*font-weight: 500;*/
 }
 
 h4 {
-    font-size: 19px;
-    line-height: 1.375em;
-    color: #303030;
-    font-weight: 400;
+    /*font-size: 19px;*/
+    /*line-height: 1.375em;*
+    /*color: #303030;*/
+    /*font-weight: 400;*/
 }
 
   /* Styling About Section */
@@ -49,15 +50,34 @@ h4 {
     padding: 80px 50px;
 }
 /* ------------------------------------------------ */
-/* Styling Portfolio & Blog Section */
-.portfolio-and-blog-section {
-  background-color: #ACBCFF;
-  padding-top: 10px;
-  padding-bottom: 20px;
+/* Portfolio Section */
+#portfolioSection {
+  background: #2E8A99;
+}
+
+.card-img {
+  height: 240px; /* Set the desired fixed height for the images */ /* Default height for larger screens */
+  object-fit: cover; /* Ensure the image fills the available space */
+}
+
+
+.portfolio-item {
+    min-height: 25rem;
 }
 
 /* ------------------------------------------------ */
-/* Carousel Styles */
+/* Blog Section */
+#blogContainer {
+  background: #84A7A1;
+}
+
+.carousel .carousel-indicators button {
+  position: relative;
+  height: 10px;
+  width: 60px;
+  border-radius: 14px;
+  border: none;
+}
 
 
 
