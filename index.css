@@ -83,9 +83,17 @@ h4 {
 
 /* ------------------------------------------------ */
 /* Contact Section */
-.contact-section {
-  background-color: #AEE2FF;
+
+#contactMeSection {
+  /*background: #84A7A1;*/
+  background: #F1F6F9;
 }
+
+.divider-text {
+  border-bottom: 3px solid rgb(255, 13, 13);
+  width: 180px;
+}
+
 /* Style Contact Me Icons */
 .fas  {
   font-size: 18px;
