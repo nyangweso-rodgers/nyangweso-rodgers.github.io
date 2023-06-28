@@ -46,9 +46,16 @@ h4 {
 }
 
   /* Styling About Section */
-.about-section {
-    padding: 80px 50px;
+.my-about-section {
+  background-color: #F1F6F9;
+  padding: 80px 0;
 }
+
+.my-header-column {
+  padding: 10px 0 0 10px;
+}
+
+
 /* ------------------------------------------------ */
 /* Portfolio Section */
 #portfolioSection {
