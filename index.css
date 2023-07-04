@@ -4,36 +4,83 @@ body {
     font-family: "Trirong", serif;
     /*color: #818181;*/
     line-height: 1.8;
+    /* Requires relative positioning: The element with data-bs-spy="scroll" requires the CSS position property, with a value of "relative" to work properly. */
+    position: relative;
 }
 
-/* Styling Navbar Section*/
+
+/*  Navbar Section */
 .navbar {
+    background-color: #0A2647;
+    font-size: 20px;
+    font-family: "Trirong", serif;
+    padding-top: 15px;
+    letter-spacing: 1px;
     margin-bottom: 0;
-    font-size: 19px;
-    letter-spacing: 2px;
-    line-height: 1.42857143 !important;
+    /*line-height: 1.42857143;*/
     z-index: 9999;
-    font-family: Montserrat, sans-serif;
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+    color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+  width: 80px;
+  border-color: transparent;
+}
+
+.navbar-brand {
+  font-size: 1em; /* Base font size */
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff;
+    /*background-color: #43b0f1;*/
+    background-color: #c1d3fe;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    /*background-color: #43b0f1;*/
+    background-color: #c1d3fe;
+}
+
+
+/* Styles for navbar when scrolling */
+
+/* for screens up to 576 pixels wide */
+@media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1.1em;
+    }
   }
 
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
-    background-color: #fff !important;
-  }
+@media (min-width: 577px) and (max-width: 992px) {
+.navbar-brand {
+    font-size: 1.2em; /* Adjusted font size for medium screens */
+}
+}
 
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-  }
+@media (min-width: 993px) {
+.navbar-brand {
+    font-size: 1.5em; /* Adjusted font size for larger screens */
+}
+}
+
+/* About Section */
+.my-about-section {
+    background: #F1F6F9;
+    padding: 80px 0px;
+    margin-top: 60px;
+}
 
 /* Extra Styles to Some Elements */
 h2 {
     /*font-size: 24px;*/
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     /*color: #303030;*/
     /*font-weight: 500;*/
 }
@@ -45,7 +92,7 @@ h4 {
     /*font-weight: 400;*/
 }
 
-  /* Styling About Section */
+  /*  About Section */
 .my-about-section {
   background-color: #F1F6F9;
   padding: 80px 0;

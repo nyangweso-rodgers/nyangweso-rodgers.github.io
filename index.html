@@ -22,35 +22,35 @@
         
         <link rel="stylesheet" href="index.css">
     </head>
-    <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <body id="myPage" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="60">
 
-        <!--Section 1 - Navbar Section -->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" id="navbarSection">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#aboutSection">Rodgers Nyangweso</a>
+        <!-- Start - Navbar Section -->
+        <nav id="navbarSection" class="navbar navbar-expand-sm fixed-top">
+            <div class="container py-2">
+                <div class="">
+                    <a class="navbar-brand" href="#aboutMeSection">Rodgers Nyangweso</a>
+                </div>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-link" href="#aboutSection">About</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#portfolioSection" role="button" data-bs-toggle="dropdown">Portfolio</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">HTML & CSS</a></li>
-                                <li><a class="dropdown-item" href="#">JavaScript</a></li>
-                                <li><a class="dropdown-item" href="#">Data Science</a></li>
-                                <li><a class="dropdown-item" href="#">Software Development</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#newsAndEventSection">News & Events</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contactSection">Contact</a></li>
-                    </ul>
-                    <form class="d-flex" action="">
-                        <input class="form-control me-2" type="search" placeholder="Search">
-                        <button class="btn btn-primary">Search</button>
-                    </form>
-                </div>
+
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ms-auto navbar-nav-scroll nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutMeSection">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolioSection">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blogContainer">Tech Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contactMeSection">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
             </div>
         </nav>
         <!-- End - Nav Section -->
