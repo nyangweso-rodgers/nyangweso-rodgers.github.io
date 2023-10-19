@@ -5,7 +5,6 @@ body {
     /*color: #818181;*/
     line-height: 1.8;
     /* Requires relative positioning: The element with data-bs-spy="scroll" requires the CSS position property, with a value of "relative" to work properly. */
-    position: relative;
 }
 
 
@@ -31,12 +30,6 @@ body {
   border-color: transparent;
 }
 
-/* Base font size */
-/*
-.navbar-brand {
-  font-size: 1em;
-}
-*/
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #fff;
@@ -51,35 +44,6 @@ body {
     background-color: #c1d3fe;
 }
 
-
-/* Styles for navbar when scrolling */
-
-/* for screens up to 576 pixels wide */
-/*
-@media (max-width: 576px) {
-    .navbar-brand {
-      font-size: 1.1em;
-    }
-  }
-*/
-
-/* Adjusted font size for medium screens */
-/*
-@media (min-width: 577px) and (max-width: 992px) {
-.navbar-brand {
-    font-size: 1.2em; 
-}
-}
-*/
-
-/* Adjusted font size for larger screens */
-/*
-@media (min-width: 993px) {
-.navbar-brand {
-    font-size: 1.5em; 
-}
-}
-*/
 
 /* ---------------- Styling About Section -------------------------- */
 /* About Section */
