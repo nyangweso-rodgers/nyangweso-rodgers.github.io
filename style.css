@@ -1,10 +1,8 @@
 /* Styling the Body */
 body {
-    /*font: 400 15px Trirong,Lato, sans-serif;*/
     font-family: "Trirong", serif;
     /*color: #818181;*/
     line-height: 1.8;
-    /* Requires relative positioning: The element with data-bs-spy="scroll" requires the CSS position property, with a value of "relative" to work properly. */
 }
 
 
@@ -13,11 +11,8 @@ body {
     background-color: #0A2647;
     font-size: 20px;
     font-family: "Trirong", serif;
-    /*padding-top: 15px;*/
     letter-spacing: 1px;
     margin-bottom: 0;
-    /*line-height: 1.42857143;*/
-    /*z-index: 9999;*/
 }
 
 .navbar li a, .navbar .navbar-brand {
