@@ -1,22 +1,22 @@
 /* Styling the Body */
 body {
-    font-family: "Trirong", serif;
-    /*color: #818181;*/
-    line-height: 1.8;
+  font-family: "Trirong", serif;
+  /*color: #818181;*/
+  line-height: 1.8;
 }
-
 
 /*  Navbar Section */
 .navbar {
-    background-color: #0A2647;
-    font-size: 20px;
-    font-family: "Trirong", serif;
-    letter-spacing: 1px;
-    margin-bottom: 0;
+  background-color: #0a2647;
+  font-size: 20px;
+  font-family: "Trirong", serif;
+  letter-spacing: 1px;
+  margin-bottom: 0;
 }
 
-.navbar li a, .navbar .navbar-brand {
-    color: #fff;
+.navbar li a,
+.navbar .navbar-brand {
+  color: #fff;
 }
 
 .navbar-toggler {
@@ -25,27 +25,26 @@ body {
   border-color: transparent;
 }
 
-
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #fff;
-    /*background-color: #43b0f1;*/
-    background-color: #c1d3fe;
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #fff;
+  /*background-color: #43b0f1;*/
+  background-color: #c1d3fe;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-    color: #fff;
-    /*background-color: #43b0f1;*/
-    background-color: #c1d3fe;
+  color: #fff;
+  /*background-color: #43b0f1;*/
+  background-color: #c1d3fe;
 }
-
 
 /* ---------------- Styling About Section -------------------------- */
 /* About Section */
 .my-about-section {
-    padding: 40px 0px;
-    background-color: #F1F6F9;
-    /* margin-top: 60px;*/
+  padding: 40px 0px;
+  background-color: #f1f6f9;
+  /* margin-top: 60px;*/
 }
 
 .my-about-me-row {
@@ -54,23 +53,22 @@ body {
 
 /* Extra Styles to Some Elements */
 h2 {
-    /*font-size: 24px;*/
-    /*text-transform: uppercase;*/
-    /*color: #303030;*/
-    /*font-weight: 500;*/
+  /*font-size: 24px;*/
+  /*text-transform: uppercase;*/
+  /*color: #303030;*/
+  /*font-weight: 500;*/
 }
 
 h4 {
-    /*font-size: 19px;*/
-    /*line-height: 1.375em;*
+  /*font-size: 19px;*/
+  /*line-height: 1.375em;*
     /*color: #303030;*/
-    /*font-weight: 400;*/
+  /*font-weight: 400;*/
 }
-
 
 /* ------------ Styling Portfolio Section --------------------------- */
 .my-portfolio-section {
-  background: #2E8A99;
+  background: #2e8a99;
   padding: 40px 0;
 }
 
@@ -80,13 +78,12 @@ h4 {
 }
 
 .portfolio-item {
-    min-height: 25rem;
+  min-height: 25rem;
 }
-
 
 /* ------------------ Styling Blog Section ------------------------------ */
 .my-blog-section {
-  background: #84A7A1;
+  background: #84a7a1;
   padding: 40px 0;
 }
 
@@ -98,47 +95,50 @@ h4 {
   border: none;
 }
 
-
-
 /* ----------------- Styling Contact Section ------------------------------- */
 .my-contact-section {
-  background: #F1F6F9;
+  background: #f1f6f9;
   padding: 40px;
 }
 
-.divider-text {
-  border-bottom: 3px solid rgb(255, 13, 13);
-  width: 180px;
+footer {
+  font-size: 16px;
+  background-color: #f1f6f9;
+  padding: 20px 0;
 }
 
-/* Style Contact Me Icons */
-.fas  {
-  font-size: 18px;
+.social-media-container,
+.copyright-container,
+.cookier-setting-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-/* Style Social Media Icons */
-.fab {
-  padding: 12px;
-  font-size: 18px;
+.social-media-container > div,
+.copyright-container > div,
+.cookier-setting-container > div {
+  margin: 10px;
   text-align: center;
+}
+
+.fa-brands {
   text-decoration: none;
-  border-radius: 50%;
-  margin: 5px 3px;
-}
-.fa-linkedin-in {
-  background: #007bb5;
-  color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 
-.fa-github {
-  background: #333333;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.fab:hover {
+.fa-brands:hover {
   opacity: 0.7;
+}
+
+.fa-github,
+.fa-x-twitter {
+  color: #333333;
+}
+
+.fa-hashnode {
+  color: #2563eb;
 }
